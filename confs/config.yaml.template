@@ -1,0 +1,67 @@
+resume_directory: ../data/input/example_resumes
+summary_output_directory: ../data/output
+data_schema_dir: ../data/schema
+
+extractors:
+ experience:
+  - [Teacher, teaching, tutor]
+  - [developer, software developer, software engineer, dev]
+  - trader
+
+ platforms:
+  - Linux
+  - Windows
+  - [Mac, MacOS]
+
+ database:
+  - SQL
+  - MySQL
+  - [Postgress, Postgresql]
+  - Oracle
+  - [Firebase, Firestore, Firebase Database]
+
+ programming:
+  - [java, JavaEE]
+  - C
+  - C++
+  - C#
+  - .NET
+  - Matlab
+  - python
+  - VHDL
+  - PHP
+  - JavaScript
+  - [React, ReactJS]
+  - TypeScript
+  - [React-Native, React Native]
+
+
+ machinelearning:
+  - [sklearn, scikit-learn, sk-learn]
+  - [tensorflow, tf, tensor-flow]
+  - keras
+  - h20
+
+
+ universities:
+  - [K.J. Somaiya Institute of Engineering and Information Technology, K.J. Somaiya Institute of Engineering & Information Technology]
+  
+
+ languages:
+  - Hindi
+  - English
+  - Gujarati
+  - Spanish
+
+ hobbies:
+  - [swimming, swim]
+  - [soccer, football]
+  - painting
+  - reading
+
+ open-source:
+  - github
+  - bitbucket
+  - gitlab
+  - sourceforge
+  - gitkraken
