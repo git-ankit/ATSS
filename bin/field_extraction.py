@@ -11,6 +11,7 @@ PHONE_REGEX = r"[0-9]{10}"
 
 def candidate_name_extractor(input_string, nlp):
     input_string = str(input_string)
+    print(input_string)
 
     doc = nlp(input_string)
 
@@ -68,5 +69,7 @@ def extract_skills(resume_text, extractor, items_of_interest):
         # If at least one alias is found, add skill name to set of skills
         if skill_matches > 0:
             matched_skills.add(skill_name)
+        elif len(matched_skills) < 1:
+            matched_skills.add("NOT FOUND")
 
     return matched_skills

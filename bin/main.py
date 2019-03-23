@@ -108,7 +108,7 @@ def load(observations, nlp):
 
     logging.info('Results being output to {}'.format(output_path))
     print('Results output to {}'.format(output_path))
-
+    observations['text'] = ''
     observations.to_csv(path_or_buf=output_path,
                         index_label='index', encoding='utf-8', sep=";")
     logging.info('End transform')
