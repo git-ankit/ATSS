@@ -6,3 +6,5 @@
 ·	The knowledge was fed into Elasticsearch via Logstash to rank candidates, leading to a customizable merit list.
 
 ·	Designed a dashboard by Kibana to give a qualitative gist of candidates.
+
+For detailed explanation and screenshots, please have a look at "Applicant Tracking and Scoring System.pdf"
